@@ -1,8 +1,9 @@
 tikz/*.dpth
 tikz/*.md5
 tikz/*.log
-*.auxlock
-*.aux
-*.log
-*.synctex.gz
+main.auxlock
+main.aux
+main.log
+main.synctex.gz
 ejemplostikz.kilepr
+.kile/
