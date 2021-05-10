@@ -18,12 +18,12 @@ open=false
 order=-1
 
 [item:main.tex]
-open=true
+open=false
 order=0
 
 [view-settings,view=0,item:main.tex]
 CursorColumn=0
-CursorLine=0
+CursorLine=11
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
