@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.20)  9 MAY 2021 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.20)  9 MAY 2021 21:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -563,7 +563,19 @@ Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.17}).
 
 (./tikz/fig01.tikz
-===== Image 'tikz/fig01' is up-to-date. ======
+\openout3 = `tikz/fig01.md5'.
+
+\openout3 = `main.auxlock'.
+
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "tikz/fig01" "\def\tikzexternalrealjob{
+main}\input{main}"' ========
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "tikz/fig01" "\def\tikzexternalrealjob{main}\input{main}")...executed.
+
+\openout3 = `main.auxlock'.
+
 ) [1
 
  <./tikz/fig01.pdf{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pd
@@ -580,7 +592,7 @@ Here is how much of TeX's memory you used:
 c/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb>
-Output written on main.pdf (1 page, 24661 bytes).
+Output written on main.pdf (1 page, 24660 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
