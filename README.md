@@ -13,7 +13,7 @@ Esta es una colección de graficos usando el paquete Tikz, la galería oficial s
 
 ****
 
-![](./tikz/fig02c.jpg)
+![](./tikz/fig02d.png)
 
 
 ```tex
@@ -32,10 +32,10 @@ Esta es una colección de graficos usando el paquete Tikz, la galería oficial s
 ```
 ****
 
-| [![fig02.tikz](./tikz/fig02c.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) | [![fig02.tikz](./tikz/fig02c.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) |
+| [![fig02.tikz](./tikz/fig02d.png)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) | [![fig02.tikz](./tikz/fig02d.png)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) |
 | ------------------------------------ | ------------------------------------ |
-| [![fig02.tikz](./tikz/fig02c.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) | [![fig02.tikz](./tikz/fig02c.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) |
-| [![fig02.tikz](./tikz/fig02c.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) | [![fig02.tikz](./tikz/fig02c.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) |
+| [![fig02.tikz](./tikz/fig02d.png)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) | [![fig02.tikz](./tikz/fig02d.png)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) |
+| [![fig02.tikz](./tikz/fig02d.png)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) | [![fig02.tikz](./tikz/fig02d.png)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) |
 
 ****
 
