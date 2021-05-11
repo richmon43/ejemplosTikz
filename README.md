@@ -1,6 +1,6 @@
 ---
 title: "Tikz Galleria"
-author: "Richar Mora"
+author: "@richmon43"
 output:
   html_document:
     css: style.css
@@ -52,3 +52,20 @@ Esta es una colección de graficos usando el paquete Tikz, la galería oficial s
 \end{tikzpicture}
 ```
 ****
+
++++
+date        = "2013-06-21T11:27:27-04:00"
+description = "test"
+slug        = "test"
+title = "this is a test"
++++
+ {{< gallery html >}}
+<img src="./tikz/fig02.jpg" alt="">
+<img src="./tikz/fig02.jpg" alt="">
+<img src="./tikz/fig02.jpg" alt="">
+<img src="./tikz/fig02.jpg" alt="">
+<img src="./tikz/fig02.jpg" alt="">
+ {{< /gallery html >}}
+
+****
+
