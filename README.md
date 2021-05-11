@@ -9,13 +9,13 @@ output:
     number_sections: false
 ---
 
-Esta es una clección de graficos usando el paquete Tikz, la galería oficial se puede encontrar en [TeXample.net](http://www.texample.net/tikz/examples/), pero se pueden encontrar varios aportes de usuarios que se han propuesto mostrar sus aportes usando esta libreria que se ha vuelto muy usada y popular entre la comunidad que usa LaTeX.
+Esta es una colección de graficos usando el paquete Tikz, la galería oficial se puede encontrar en [TeXample.net](http://www.texample.net/tikz/examples/), pero hay varios aportes de usuarios que se han propuesto mostrarlos usando esta libreria que se ha vuelto muy popular entre la comunidad de LaTeX.
 
 ****
 
 ![](./img/fig02.pdf)
 
-  * [fig02.tikz](https://github.com/richmon43/ejemplosTikz/blob/master/img/fig02.tikz)
+  * [fig02.tikz](https://github.com/richmon43/ejemplosTikz/tree/master/img/fig02.tikz)
 
 ```tex
 \begin{tikzpicture}
@@ -31,7 +31,7 @@ Esta es una clección de graficos usando el paquete Tikz, la galería oficial se
 
 ![](./img/fig01.pdf)
 
-  * [fig02.tikz](https://github.com/richmon43/ejemplosTikz/blob/master/img/fig01.tikz)
+  * [fig02.tikz](https://github.com/richmon43/ejemplosTikz/tree/master/img/fig01.tikz)
 
 ```tex
 \begin{tikzpicture}
