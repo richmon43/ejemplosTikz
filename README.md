@@ -31,7 +31,7 @@ Esta es una colección de graficos usando el paquete Tikz, la galería oficial s
 
 ![](./img/fig01.pdf)
 
-  * [fig02.tikz](https://github.com/richmon43/ejemplosTikz/tree/master/img/fig01.tikz)
+  * [fig02.tikz](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz)
 
 ```tex
 \begin{tikzpicture}
