@@ -1,9 +1,14 @@
 # Galería de ejemplos con Tikz
 
-****
-![](./img/arcosCirculos.png)
+## Contenido
+1. [Geometría](#geometria)
 
-  * [arcosCirculos.pgf](https://github.com/richmon43/ejemplosTikz/blob/master/img/arcosCirculos.pgf)
+****
+## 1. Geometría <a name = "geometria"></a>
+
+* [arcosCirculos.pgf](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/arcosCirculos.pgf)
+
+![](./tikz/arcosCirculos.png)
 
 ```tex
 \begin{tikzpicture}
