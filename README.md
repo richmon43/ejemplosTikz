@@ -33,7 +33,7 @@ Esta es una colección de graficos usando el paquete Tikz, la galería oficial s
 ```
 ****
 
-![](./img/fig02.jpg)
+![](./tikz/fig02.jpg)
 
   * [fig02.tikz](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz)
 
