@@ -13,9 +13,8 @@ Esta es una colección de graficos usando el paquete Tikz, la galería oficial s
 
 ****
 
-![](./img/fig02.pdf)
+![](./tikz/fig02c.jpg)
 
-  * [fig01.pdf](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.pdf)
 
 ```tex
 \begin{tikzpicture}
@@ -33,31 +32,10 @@ Esta es una colección de graficos usando el paquete Tikz, la galería oficial s
 ```
 ****
 
-
-  * [![fig02.tikz](./tikz/fig02.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz)
-
-```tex
-\begin{tikzpicture}
-  \draw[blue] (0, 0) -- (4, 0);
-  \draw[blue] (0, 0) -- (-3, -3);
-  \draw[blue] (0, 0) -- (0, 4);
-  \draw[red] (0, 0) circle (3cm);
-  \draw[blue] (-3, 0) arc(-180:0:3cm and 1cm);
-  \draw[blue, dashed] (3, 0) arc (0:180: 3cm and 1cm);
-  \node[fill = green, green, circle, draw, inner sep = 1pt] (A) at (210:3) {};
-  \node[fill = green, green, circle, draw, inner sep = 1pt] (B) at (60:3) {};
-  \node[fill = green, green, circle, draw, inner sep = 1pt] (C) at (120:3cm and 1cm) {};
-  \draw[color = green, dashed] (A) node[below left, black] {$-f(x)$} -- (B) node[right, black] {$f(x)$} -- (C) node[above, black] {$g(x)$};
-\end{tikzpicture}
-```
-****
-
-| <img src="./tikz/fig02c.jpg" alt=""> | <img src="./tikz/fig02c.jpg" alt=""> |
+| [![fig02.tikz](./tikz/fig02c.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) | [![fig02.tikz](./tikz/fig02c.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) |
 | ------------------------------------ | ------------------------------------ |
-| <img src="./tikz/fig02c.jpg" alt=""> | <img src="./tikz/fig02c.jpg" alt=""> |
-| ------------------------------------ | ------------------------------------ |
-| <img src="./tikz/fig02c.jpg" alt=""> | <img src="./tikz/fig02c.jpg" alt=""> |
-| ------------------------------------ | ------------------------------------ |
+| [![fig02.tikz](./tikz/fig02c.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) | [![fig02.tikz](./tikz/fig02c.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) |
+| [![fig02.tikz](./tikz/fig02c.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) | [![fig02.tikz](./tikz/fig02c.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz) |
 
 ****
 
