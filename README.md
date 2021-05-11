@@ -32,6 +32,26 @@ Esta es una colección de graficos usando el paquete Tikz, la galería oficial s
 \end{tikzpicture}
 ```
 ****
+---
+galleries:
+ # gallery number one
+ 1:
+   # row one in gallery one
+   -
+     - { url: 'fig01.jpg', alt: 'alt 1'}
+   # row two in gallery one
+   -
+     - { url: 'fig01.jpg', alt: 'alt 2'}
+     - { url: 'fig01.jpg', alt: 'alt 3'}
+
+ # gallery number two
+ 2:
+  # row one in gallery two
+   -
+     - { url: 'fig01.jpg', alt: 'alt 4'}
+     - { url: 'fig01.jpg', alt: 'alt 5'}
+
+****
 
 ![](./tikz/fig02.jpg)
 
