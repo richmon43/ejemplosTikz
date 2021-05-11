@@ -33,9 +33,8 @@ Esta es una colección de graficos usando el paquete Tikz, la galería oficial s
 ```
 ****
 
-![](./tikz/fig02.jpg)
 
-  * [fig02.tikz](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz)
+  * [![fig02.tikz](./tikz/fig02.jpg)](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/fig01.tikz)
 
 ```tex
 \begin{tikzpicture}
@@ -53,13 +52,12 @@ Esta es una colección de graficos usando el paquete Tikz, la galería oficial s
 ```
 ****
 
-{{< gallery html >}}
-<img src="./tikz/fig02c.jpg" alt="">
-<img src="./tikz/fig02c.jpg" alt="">
-<img src="./tikz/fig02c.jpg" alt="">
-<img src="./tikz/fig02c.jpg" alt="">
-<img src="./tikz/fig02c.jpg" alt="">
-{{< /gallery html >}}
+| <img src="./tikz/fig02c.jpg" alt=""> | <img src="./tikz/fig02c.jpg" alt=""> |
+| ------------------------------------ | ------------------------------------ |
+| <img src="./tikz/fig02c.jpg" alt=""> | <img src="./tikz/fig02c.jpg" alt=""> |
+| ------------------------------------ | ------------------------------------ |
+| <img src="./tikz/fig02c.jpg" alt=""> | <img src="./tikz/fig02c.jpg" alt=""> |
+| ------------------------------------ | ------------------------------------ |
 
 ****
 
