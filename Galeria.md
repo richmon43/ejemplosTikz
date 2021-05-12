@@ -1,7 +1,28 @@
 # Galería de ejemplos con Tikz
 
+Para generar cada uno de los gráficos mostrados a continuación se ha empleado la sigueinte plantilla:
+
+```tex
+\documentclass[border=5pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{external}
+\tikzexternalize[prefix=tikz/]
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+\newcommand{\inputtikz}[1]{
+  \tikzsetnextfilename{#1}
+  \input{tikz/#1.pgf}
+}
+\begin{document}
+  \inputtikz{nombreArchivo}
+\end{document}
+```
+El único camabio que se debe realizar es reemplazar **nombreArchivo** por el que corresponde al código que se necesita compilar, recuerde que **nombreAarchivo.pgf** se encuentra dentro del directorio ***tikz/nombreArchivo.pgf***.
+
+
 ## Contenido
 1. [Geometría](#geometria)
+2. [Estadística](#estadistica)
 
 ****
 ## 1. Geometría <a name = "geometria"></a>
@@ -25,5 +46,24 @@
     (B) node[right, black] {$f(x)$} -- (C) node[above, black] {$g(x)$};
 \end{tikzpicture}
 ```
+****
 
+## 2. Estadística <a name = "estadistica"></a>
+
+* [graficoLineas.pgf](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/graficoLineas.pdf)
+
+![](./tikz/graficoLineas.png)
+
+```tex
+\pgfplotstableread[col sep=comma]{tikz/graficoLineas.csv}\graficoLineas
+\begin{tikzpicture}
+  \begin{axis}[xlabel={Abril 2021}, ylabel={unidades}, grid=major, legend entries={$y=a$,$y=b$,$y=c$,$y=d$}, %
+    legend style={font=\footnotesize, rounded corners=2pt, at={(0.3,0.95)}}]
+    \addplot table [x=dia, y=a] {\graficoLineas};
+    \addplot table [x=dia, y=b] {\graficoLineas};
+    \addplot table [x=dia, y=c] {\graficoLineas};
+    \addplot table [x=dia, y=d] {\graficoLineas};
+  \end{axis}
+\end{tikzpicture}
+```
 ****
