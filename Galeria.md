@@ -17,8 +17,13 @@ Para generar cada uno de los gráficos mostrados a continuación se ha empleado 
   \inputtikz{nombreArchivo}
 \end{document}
 ```
-El único camabio que se debe realizar es reemplazar **nombreArchivo** por el que corresponde al código que se necesita compilar, recuerde que **nombreAarchivo.pgf** se encuentra dentro del directorio ***tikz/nombreArchivo.pgf***.
+El único camabio que se debe realizar es reemplazar **nombreArchivo** por el que corresponde al código que se necesita compilar, recuerde que **nombreAarchivo.pgf** se encuentra dentro del directorio ***tikz/nombreArchivo.pgf*** y dado que se se hace uso de la librería ***external*** del paquete TikZ se debe compilar con las siguientes instrucciones:
 
+```bash
+pdflatex -synctex=1 -interaction=nonstopmode --shell-escape
+```
+Configura tu editor favorito para que este proceso sea más simple.
+****
 
 ## Contenido
 1. [Geometría](#geometria)
