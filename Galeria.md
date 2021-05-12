@@ -19,7 +19,7 @@ Para generar cada uno de los gráficos mostrados a continuación se ha empleado 
 ```
 El único camabio que debes realizar es reemplazar **nombreArchivo** por el que corresponde al código que se necesita compilar, recuerde que **nombreAarchivo.pgf** se encuentra dentro del directorio ***tikz/nombreArchivo.pgf***  y debido a que se hace uso de la librería ***external*** del paquete **TikZ**, se debe compilar haciendo uso de la siguiente instrucción:
 
-```bash
+```tex
 pdflatex -synctex=1 -interaction=nonstopmode --shell-escape
 ```
 Configura tu editor favorito para que este proceso sea más simple.
