@@ -6,7 +6,7 @@
 ****
 ## 1. Geometría <a name = "geometria"></a>
 
-* [arcosCirculos.pgf](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/arcosCirculos.pgf)
+* [arcosCirculos.pgf](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/arcosCirculos.pdf)
 
 ![](./tikz/arcosCirculos.png)
 
