@@ -1,0 +1,7 @@
+\begin{tikzpicture}[every node/.style={scale=.6,black}]
+  \foreach \x in {1,2,...,5}{\draw (\x,.05) -- (\x,-.05) node[below]{$\x$};}
+  \draw[-latex] (-0.5,0) -- (6,0) node[right]{$x$};
+  \draw[-latex] (0,-0.5) -- (0,2) node[right]{$y$};
+  \draw[domain=3:6, samples=250, thick] plot (\x,{sqrt(\x-3)});
+  \node[rotate=20] at (4.5,1.4) {$f(x) = \sqrt{(x-3)}$};
+\end{tikzpicture}

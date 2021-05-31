@@ -1,0 +1,8 @@
+\begin{tikzpicture}[every node/.style={scale=.8, black}]
+  \draw[-latex] (0,-0.5) -- (0,4) node[right]{$y$};
+  \foreach \x in {-5,-4,...,-1,1,,2,...,5}{\draw (\x,0.05) -- (\x,-0.05) node[below]{$\x$};}
+  \draw[-latex] (-6,0) -- (6,0) node[right]{$x$};
+  \draw[densely dashed] (-6,3)--(6,3);
+  \draw[domain=-6:6, samples=250, thick] plot (\x,{(3*(\x*\x))/((\x*\x)+3)});
+  \node at (3.5,1.5) {$f(x) = \dfrac{3x^2}{x^2+3}$};
+\end{tikzpicture}

@@ -1,0 +1,7 @@
+\begin{tikzpicture}[every node/.style={scale=.5, black}]
+%   \draw[help lines, step=5mm, red] (-2,-2) grid (2,2);
+  \draw (0,0) circle (1.5);
+  \draw (1.5,0) node[right]{$A(1.r)$} -- (0,0) -- node[pos=.5, left]{$D$} ++(60:1.5) node[right]{$B\left(\cos(x),\sin(x)\right)$} -- node[pos=0.5,xshift=6mm,yshift=3mm]{$x$} cycle;
+  \draw (0.75,0) arc (0:60:0.75);
+  \draw[densely dashed] (0,0) node[below left]{$O$} ++(60:1.5) -- (0.75,0) node[below]{$C$};
+\end{tikzpicture}

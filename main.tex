@@ -1,0 +1,16 @@
+\documentclass[border=3pt]{standalone}
+\usepackage{amsmath, amssymb}
+\usepackage{tikz}
+\usetikzlibrary{external}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+\tikzexternalize[prefix=tikz/]
+\newcommand{\inputikz}[1]{
+  \tikzsetnextfilename{#1}
+  \input{tikz/#1.pgf}
+}
+\begin{document}
+%   \inputikz{limiteInfinito}
+%  \inputtikz{graficoLineas}
+  \inputikz{sectorCircular}
+\end{document}
