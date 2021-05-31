@@ -18,20 +18,24 @@ Para generar cada uno de los gráficos mostrados a continuación se ha empleado 
   \inputtikz{nombreArchivo}
 \end{document}
 ```
+
 El único camabio que debes realizar es reemplazar **nombreArchivo** por el que corresponde al código que se necesita compilar, recuerde que **nombreAarchivo.pgf** se encuentra dentro del directorio ***tikz/nombreArchivo.pgf***  y debido a que se hace uso de la librería ***external*** del paquete **TikZ**, se debe compilar haciendo uso de la siguiente instrucción:
 
 ```
 pdflatex -synctex=1 -interaction=nonstopmode --shell-escape main.tex
 ```
+
 Configura tu editor favorito para que este proceso sea más simple.
 ****
 
 ## Contenido
+
 1. [Geometría](#geometria)
 2. [Estadística](#estadistica)
 3. [Cálculo](#calculo)
 
 ****
+
 ## 1. Geometría <a name = "geometria"></a>
 
 * [arcosCirculos.pgf](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/arcosCirculos.pdf)
@@ -53,6 +57,7 @@ Configura tu editor favorito para que este proceso sea más simple.
     (B) node[right, black] {$f(x)$} -- (C) node[above, black] {$g(x)$};
 \end{tikzpicture}
 ```
+
 ****
 
 * [sectorCircular.pgf](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/sectorCircular.pdf)
@@ -67,6 +72,7 @@ Configura tu editor favorito para que este proceso sea más simple.
   \draw[densely dashed] (0,0) node[below left]{$O$} ++(60:1.5) -- (0.75,0) node[below]{$C$};
 \end{tikzpicture}
 ```
+
 ****
 
 ## 2. Estadística <a name = "estadistica"></a>
@@ -87,6 +93,7 @@ Configura tu editor favorito para que este proceso sea más simple.
   \end{axis}
 \end{tikzpicture}
 ```
+
 ****
 
 ## 3. Cálculo <a name = "calculo"></a>
@@ -104,6 +111,7 @@ Configura tu editor favorito para que este proceso sea más simple.
   \node[rotate=20] at (4.5,1.4) {$f(x) = \sqrt{(x-3)}$};
 \end{tikzpicture}
 ```
+
 ****
 
 * [limiteInfinito.pgf](https://github.com/richmon43/ejemplosTikz/blob/master/tikz/limiteInfinito.pdf)
@@ -120,4 +128,5 @@ Configura tu editor favorito para que este proceso sea más simple.
   \node at (3.5,1.5) {$f(x) = \dfrac{3x^2}{x^2+3}$};
 \end{tikzpicture}
 ```
+
 ****
